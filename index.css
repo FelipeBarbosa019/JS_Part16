@@ -1,0 +1,104 @@
+/* --------------- Reset --------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------- Body --------------- */
+#container {
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;  
+    border-radius: 10px 10px 10px 10px;
+}
+
+body {
+    background-image: url("./wallpaper.jpg");
+    background-size: cover;
+    cursor: auto;
+}
+
+div input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#consult{
+    background-color: rgb(12, 57, 15);
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 7px;
+    padding: 3px;
+    display: none;
+}
+
+#map{
+    background-color: rgb(4, 14, 92);
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 7px;
+    padding: 3px;
+    display: none;
+}
+
+#googleMaps {
+    display: none;
+    width: 80vw;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 70px;
+}
+
+
+/* --------------- Footer --------------- */
+footer{
+    width: 100vw;
+    height: 6vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0vw;
+    margin-top: 2vw;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.socials a:hover i {
+    color:#4d4d4d;
+    transform: scale(2.5);
+    transition: 2s;
+}
